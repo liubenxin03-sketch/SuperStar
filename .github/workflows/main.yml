@@ -2,7 +2,7 @@ name: 刷课
 
 on:
   push:
-    branches:
+分支:
       - main
   workflow_dispatch:
   # 北京时间每天 08:00 运行。如需开启，取消下面两行注释。
@@ -36,6 +36,6 @@ jobs:
           CHAOXING_COURSE_LIST: ${{ secrets.CHAOXING_COURSE_LIST }}
         run: |
           python main.py \
-            -u "13256568909" \
-            -p "Lbx060928@" \
+            -u "19506370553" \
+            -p "20062007Hcr@" \
             -l "227074865"
