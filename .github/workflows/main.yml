@@ -32,6 +32,6 @@ jobs:
           CHAOXING_COURSE_LIST: ${{ secrets.CHAOXING_COURSE_LIST }}
         run: |
           python main.py \
-          -u "19506370553" \
-          -p "20062007Hcr@" \
+          -u "17560764939" \
+          -p "I12345678" \
           -l "227074865"\
